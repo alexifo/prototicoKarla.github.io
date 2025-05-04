@@ -1,0 +1,86 @@
+body {
+  width: 100vw;
+  height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  header {
+    background-color: #008080;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  /* Estilização do cabeçalho */
+header {
+  background-color: #3f606f;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Barra de navegação com logo e menu lado a lado */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Logo */
+.logo {
+  height: 180px;
+  width: auto;
+}
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    margin: 0 15px;
+  }
+  
+  .menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    transition: background 0.3s;
+  }
+  
+  .menu a:hover,
+  .menu a.active {
+    background-color: #0066cc;
+    border-radius: 5px;
+  }
+  
+  main section {
+    padding: 80px 20px;
+    min-height: 100vh;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  footer {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+
+  
